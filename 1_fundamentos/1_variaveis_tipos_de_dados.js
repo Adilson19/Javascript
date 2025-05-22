@@ -41,3 +41,30 @@ console.log(numero, numero2);
 // JS nao ha diferenca entre inteiro e decimal
 
 let umTexto = "Meu numero de telefone eh 922427380";
+
+// Avaliar o tipo de dado
+
+// typeof -> retorna o tipo de dado
+console.log(typeof numero);
+console.log(typeof numero2);
+
+console.log(typeof umTexto);
+
+// boolean -> verdadeiro ou falso (true ou false)
+let estaChovendo = false;
+console.log(estaChovendo);
+console.log(typeof estaChovendo);
+
+console.log(10 > 5);
+
+let semValor = null; // Sem valor
+
+console.log(semValor);
+
+console.log(typeof semValor); // null eh um objeto
+
+// Em JS varios tipos de dados sao considerados objetos
+
+let indefinido;
+console.log(indefinido); // undefined
+console.log(typeof indefinido); // undefined
